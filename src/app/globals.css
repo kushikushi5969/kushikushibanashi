@@ -35,4 +35,12 @@ body {
   .inner {
     padding: 0 1rem;
   }
+
+  .value-x {
+    color: rgb(249 115 22);
+  }
+
+  .value-o {
+    color: rgb(14 165 233);
+  }
 }
