@@ -1,29 +1,15 @@
-'use client'
-
-import { Box, Heading, Text, VStack, Button } from '@chakra-ui/react'
-import { css } from '../styled-system/css'
+import { Button } from '@/components/ui/button'
 
 export default function Home() {
   return (
-    <Box
-      className={css({
-        minH: '100vh',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      })}
-    >
-      <VStack gap={6}>
-        <Heading as='h1' size='4xl'>
-          くしくし話
-        </Heading>
-        <Text fontSize='xl' color='gray.500'>
-          Chakra UI v3 + Panda CSS で構築中...
-        </Text>
-        <Button colorPalette='teal' size='lg'>
-          はじめる
-        </Button>
-      </VStack>
-    </Box>
+    <div className='min-h-screen flex items-center justify-center'>
+      <div className='flex flex-col items-center gap-6'>
+        <h1 className='text-5xl font-bold'>くしくし話</h1>
+        <p className='text-xl text-muted-foreground'>
+          Tailwind CSS v4 + Shadcn/ui で構築中...
+        </p>
+        <Button size='lg'>はじめる</Button>
+      </div>
+    </div>
   )
 }

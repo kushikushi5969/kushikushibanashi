@@ -1,0 +1,18 @@
+[
+  {
+    "createdAt": "2024-10-01T12:00:00Z",
+    "description": "Added Panda CSS for design system integration and updated scripts for code generation.",
+    "id": 1,
+    "title": "First Demo Post",
+    "slug": "first-demo-post",
+    "content": "This is the content of the first demo post."
+  },
+  {
+    "createdAt": "2024-10-02T15:30:00Z",
+    "description": "Implemented code formatting and linting scripts using Prettier and ESLint.",
+    "id": 2,
+    "title": "Second Demo Post",
+    "slug": "second-demo-post",
+    "content": "This is the content of the second demo post."
+  }
+]
