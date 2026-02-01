@@ -40,6 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# panda css
+/styled-system
+
 # mcp
 .mcp.json
 /.serena
